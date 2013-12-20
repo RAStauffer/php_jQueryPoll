@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 3.3.3
+- http://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Dec 20, 2013 at 06:00 AM
+- Server version: 5.1.50
+- PHP Version: 5.3.14
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="<DB>" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="answers">
+                CREATE TABLE `answers` (
+                  `id` int(10) NOT NULL AUTO_INCREMENT,
+                  `answer1` varchar(255) NOT NULL,
+                  `answer2` varchar(255) NOT NULL,
+                  `answer3` varchar(255) NOT NULL,
+                  `answer4` varchar(255) NOT NULL,
+                  `answer5` varchar(255) NOT NULL,
+                  `answer6` varchar(255) NOT NULL,
+                  `answer7` varchar(255) NOT NULL,
+                  `answer8` varchar(255) NOT NULL,
+                  `answer9` varchar(255) NOT NULL,
+                  `answer10` varchar(255) NOT NULL,
+                  `answer11` varchar(255) NOT NULL,
+                  `answer12` varchar(255) NOT NULL,
+                  `answer13` varchar(255) NOT NULL,
+                  `answer14` varchar(255) NOT NULL,
+                  `answer15` varchar(255) NOT NULL,
+                  `EndAnswers` varchar(10) NOT NULL,
+                  `votes1` int(10) NOT NULL DEFAULT '0',
+                  `votes2` int(10) NOT NULL DEFAULT '0',
+                  `votes3` int(10) NOT NULL DEFAULT '0',
+                  `votes4` int(10) NOT NULL DEFAULT '0',
+                  `votes5` int(10) NOT NULL DEFAULT '0',
+                  `votes6` int(10) NOT NULL DEFAULT '0',
+                  `votes7` int(10) NOT NULL DEFAULT '0',
+                  `votes8` int(10) NOT NULL DEFAULT '0',
+                  `votes9` int(10) NOT NULL DEFAULT '0',
+                  `votes10` int(10) NOT NULL DEFAULT '0',
+                  `votes11` int(10) NOT NULL,
+                  `votes12` int(10) NOT NULL,
+                  `votes13` int(10) NOT NULL,
+                  `votes14` int(10) NOT NULL,
+                  `votes15` int(10) NOT NULL,
+                  `max` int(10) NOT NULL DEFAULT '0',
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
+            </pma:table>
+            <pma:table name="poll">
+                CREATE TABLE `poll` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `question` varchar(2000) NOT NULL,
+                  `answers_id` int(11) NOT NULL,
+                  `user_id` int(10) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+            </pma:table>
+            <pma:table name="poll_users">
+                CREATE TABLE `poll_users` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `username` varchar(64) NOT NULL,
+                  `password` varchar(64) NOT NULL,
+                  `first_name` varchar(64) NOT NULL,
+                  `last_name` varchar(64) NOT NULL,
+                  `email` varchar(128) DEFAULT NULL,
+                  `status` varchar(32) DEFAULT 'enabled',
+                  PRIMARY KEY (`id`),
+                  UNIQUE KEY `username` (`username`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+</pma_xml_export>
