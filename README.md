@@ -10,3 +10,4 @@ Independent views are invoked in controller
 
 Requires a MySQL database. Set up the parameters for access in model.php (see model/ModelNoAuth.php)
 Rename ModelNoAuth.php to Model.php
+See DBSchema.xml for DB table descriptions
