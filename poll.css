@@ -1,0 +1,260 @@
+/* Custom CSS for Flex Slider Demo */
+body {
+	font-family: "Helvetica Neue";
+	margin: 0;
+	padding: 0;
+	background: #efefef;
+}
+
+h1 {
+	padding: 0.5em 0 0.5em 0;
+	margin: 0;
+}
+
+a {
+	color: #066;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#wrapper { /*background: #fcc;*/
+	width: 95%;
+	max-width: 1024px;
+	min-width: 600px;
+	margin: 0px auto;
+	padding-top: 0;
+}
+.bkgnd1 {
+	background: #0a2;
+}
+
+.bkgnd2 {
+	background: #b33;
+}
+
+.bkgnd3 {
+	background: #ff8c00;
+}
+
+.bkgnd4 {
+	background: rgb(32, 138, 138); /* Used chrome color picker */
+}
+
+.bkgnd5 {
+	background: rgb(207, 87, 87);  /* Used chrome color picker */
+}
+
+.bkgnd6 {
+	background: #0f0;
+}
+
+.bkgnd7 {
+	background: #e0e;
+}
+
+.bkgnd8 {
+	background: rgb(185, 68, 120); / Used chrome color picker */
+}
+
+.bkgnd9 {
+	background: #0be;
+}
+
+.bkgnd10 {
+	background: #ad4;
+}
+
+.bkgnd11 {
+	background: rgb(68, 99, 221);
+}
+
+.bkgnd12 {
+	background: rgb(148, 68, 221);
+}
+
+.bkgnd13 {
+	background: rgb(196, 164, 40);
+}
+
+.bkgnd14 {
+	background: rgb(226, 132, 87);
+}
+
+.bkgnd15 {
+	background: rgb(68, 221, 221);
+}
+
+#bar1 {
+	margin: 0 0.5em 0 0;
+	top: 300px;
+	width: 50px;
+	height: 0;
+	position: relative;
+}
+
+#bar2 {
+	margin: 0 0.5em 0 0;
+	top: 300px;
+	width: 50px;
+	height: 0;
+	position: relative;
+}
+
+#bar3 {
+	margin: 0 0.5em 0 0;
+	top: 300px;
+	width: 50px;
+	height: 0;
+	position: relative;
+}
+
+#bar4 {
+	margin: 0 0.5em 0 0;
+	top: 300px;
+	width: 50px;
+	height: 0;
+	position: relative;
+}
+
+#bar5 {
+	margin: 0 0.5em 0 0;
+	top: 300px;
+	width: 50px;
+	height: 0;
+	position: relative;
+}
+
+#bar6 {
+	margin: 0 0.5em 0 0;
+	top: 300px;
+	width: 50px;
+	height: 0;
+	position: relative;
+}
+
+#bar7 {
+	margin: 0 0.5em 0 0;
+	top: 300px;
+	width: 50px;
+	height: 0;
+	position: relative;
+}
+
+#bar8 {
+	margin: 0 0.5em 0 0;
+	top: 300px;
+	width: 50px;
+	height: 0;
+	position: relative;
+}
+
+#bar9 {
+	margin: 0 0.5em 0 0;
+	top: 300px;
+	width: 50px;
+	height: 0;
+	position: relative;
+}
+
+#bar10 {
+	margin: 0 0.5em 0 0;
+	top: 300px;
+	width: 50px;
+	height: 0;
+	position: relative;
+}
+
+#bar11 {
+	margin: 0 0.5em 0 0;
+	top: 300px;
+	width: 50px;
+	height: 0;
+	position: relative;
+}
+
+#bar12 {
+	margin: 0 0.5em 0 0;
+	top: 300px;
+	width: 50px;
+	height: 0;
+	position: relative;
+}
+
+#bar13 {
+	margin: 0 0.5em 0 0;
+	top: 300px;
+	width: 50px;
+	height: 0;
+	position: relative;
+}
+
+#bar14 {
+	margin: 0 0.5em 0 0;
+	top: 300px;
+	width: 50px;
+	height: 0;
+	position: relative;
+}
+
+#bar15 {
+	margin: 0 0.5em 0 0;
+	top: 300px;
+	width: 50px;
+	height: 0;
+	position: relative;
+}
+
+#bars_container {
+	height: 300px;
+}
+
+.group {
+	content: "";
+	display: inline-block;
+	float: left;
+}
+
+.results {
+	margin: 0 0.5em 0 0;
+	padding: 0;
+	display: inline-block;
+	width: 50px;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+.message {
+	color: #c00;
+}
+
+.form {
+	clear: both;
+}
+
+.img_fr {
+	width: 50%;
+	background-color: #fff;
+	border: 1px solid #aaa;
+	box-shadow: 3px 3px 3px #bbb;
+	margin: 0 2% 1em 2%;
+	padding: 0.5em;
+	float: right;
+}
+
+.emptyAnswer {
+	min-width: 50px;
+	margin: 0 0.5em 0 0;
+	float: left;
+	top: 250px;
+	position: relative;
+}
+
+.answerCount {
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: bold;
+}
